@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Your Name</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        line-height: 1.6;
+        background: #0f172a;
+        color: #e2e8f0;
+    }
+
+    header {
+        text-align: center;
+        padding: 40px 20px;
+        background: #020617;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        border: 3px solid #38bdf8;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        color: #94a3b8;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 15px;
+        background: #020617;
+        position: sticky;
+        top: 0;
+    }
+
+    nav a {
+        color: #38bdf8;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    section {
+        padding: 50px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        color: #38bdf8;
+    }
+
+    .card {
+        background: #020617;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .skills span {
+        display: inline-block;
+        background: #38bdf8;
+        color: #020617;
+        padding: 8px 12px;
+        margin: 5px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #020617;
+        color: #94a3b8;
+    }
+
+    .contact a {
+        display: block;
+        margin: 10px 0;
+        color: #38bdf8;
+        text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+        header h1 {
+            font-size: 1.5rem;
+        }
+        nav {
+            flex-wrap: wrap;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="your-photo.jpg" alt="Profile Photo">
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Programmer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            Write a short introduction about yourself here. Mention your background, passion, and career goals.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>UI/UX Design</span>
+        <span>SEO</span>
+    </div>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+        <h3>Job Title - Company Name</h3>
+        <p><em>Duration</em></p>
+        <p>Describe your role and achievements.</p>
+    </div>
+
+    <div class="card">
+        <h3>Internship / Freelance</h3>
+        <p><em>Duration</em></p>
+        <p>Describe your work experience.</p>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+        <h3>Project Title</h3>
+        <p>Short description of the project.</p>
+        <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+
+    <div class="card">
+        <h3>Project Title</h3>
+        <p>Short description of the project.</p>
+        <a href="#">Live Demo</a> | <a href="#">GitHub</a>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact">
+        <a href="mailto:your@email.com">your@email.com</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Portfolio Website</a>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Your Name. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
